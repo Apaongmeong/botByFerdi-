@@ -4,8 +4,6 @@ FOLLOW JAN PAKE NYA DOANG
 ## `ADD BUILDPACK`
 
 ```
-> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
 ```
 
-
-heroku buildpacks:add --index 1 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
