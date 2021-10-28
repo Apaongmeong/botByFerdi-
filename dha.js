@@ -4277,7 +4277,7 @@ case 'asmaulhusna':
                     break                                         
 //------------------< serti menu >-------------------   
 case 'sertitolol': 				
-				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}tololserti KURR GAMTENG`)
+				if (args.length < 1) return reply(`Textnya Mana Cuy?\n*Contoh ${prefix}tololserti FERDIGAMTENG`)
 				ct = body.slice(12)
 				zhain = await getBuffer(`https://api.lolhuman.xyz/api/toloserti?apikey=${setting.lolkey}&name=${ct}`)
 				dha.sendMessage(from, zhain, image, { quoted: mek, caption: 'Nih Dah Jadi' })
